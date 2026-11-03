@@ -1,0 +1,217 @@
+{
+  "dataset_name": "RootCause AI Pipeline Evaluation",
+  "version": "1.0",
+  "total_cases": 30,
+  "cases": [
+    {
+      "case_id": "RC001",
+      "query": "Why did the application experience repeated database connection failures?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC002",
+      "query": "What caused the API service to return repeated 500 errors?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC003",
+      "query": "Why did the application become unresponsive after deployment?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC004",
+      "query": "What happened during the previous database timeout incident?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC005",
+      "query": "Which errors were associated with previous service outages?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC006",
+      "query": "What was the reason for the previous application memory issue?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC007",
+      "query": "How was the earlier database performance issue resolved?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC008",
+      "query": "What were the symptoms and resolution of the previous service failure?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC009",
+      "query": "Which configuration change was associated with an earlier production incident?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC010",
+      "query": "What troubleshooting steps were performed during the previous API failure?",
+      "category": "historical_investigation",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical"
+    },
+    {
+      "case_id": "RC011",
+      "query": "What are the recommended troubleshooting steps for Kubernetes pods repeatedly restarting?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC012",
+      "query": "How can Kubernetes liveness and readiness probes cause application restarts?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC013",
+      "query": "How should PostgreSQL connection pool exhaustion be diagnosed?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC014",
+      "query": "What are the recommended methods for troubleshooting Kafka consumer lag?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC015",
+      "query": "How can Docker container memory limits lead to application failures?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC016",
+      "query": "What are common methods for diagnosing HTTP 502 errors in reverse proxies?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC017",
+      "query": "How can Python applications be diagnosed when they experience memory leaks?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC018",
+      "query": "What security checks should be performed after detecting a possible SQL injection vulnerability?",
+      "category": "external_fallback",
+      "expected_status": "completed",
+      "expected_evidence_source": "historical_and_external"
+    },
+    {
+      "case_id": "RC019",
+      "query": "Who was responsible for approving the previous production deployment?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC020",
+      "query": "What was the exact private IP address of the previous production server?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC021",
+      "query": "What is the exact internal password used by the production database?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC022",
+      "query": "Which employee deleted the production database records?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC023",
+      "query": "What is the exact financial loss caused by the latest production outage?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC024",
+      "query": "Can you predict the exact date of the next application outage?",
+      "category": "insufficient_evidence",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC025",
+      "query": "What is the weather forecast for Hyderabad tomorrow?",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC026",
+      "query": "Who won the latest cricket match?",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC027",
+      "query": "Explain how photosynthesis works in plants.",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC028",
+      "query": "Write a birthday greeting for my friend.",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC029",
+      "query": "What are the best restaurants in Hyderabad?",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    },
+    {
+      "case_id": "RC030",
+      "query": "Solve this mathematical equation: 25 multiplied by 16.",
+      "category": "out_of_scope",
+      "expected_status": "abstained",
+      "expected_evidence_source": "none"
+    }
+  ]
+}
