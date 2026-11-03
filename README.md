@@ -1,5 +1,4 @@
-# Software-Incident-Investigation-System-Using-Hybrid-RAG
-## RootCause AI
+# RootCause AI
 ### Hybrid RAG-Based Software Incident Investigation System
 
 RootCause AI is a Hybrid Retrieval-Augmented Generation (RAG) system designed to investigate software incidents using historical incident records.
